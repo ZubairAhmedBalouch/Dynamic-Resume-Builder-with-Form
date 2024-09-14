@@ -1,0 +1,112 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 20px;
+    padding: 0;
+    background-image: url(bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+
+
+}
+
+form {
+    margin: auto;
+    background-color: rgb(19, 217, 244);
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 20);
+    padding: 20px;
+    max-width: 800px;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+fieldset {
+    border: 3px solid rgb(66, 42, 75);
+    border-radius: 8px;
+    padding: 30px;
+    margin-bottom: 20px;
+    background-color: aliceblue;
+}
+
+legend {
+    font-size: x-large;
+    font-weight: bold;
+    text-align: left;
+    color: rgb(34, 29, 29);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: black;
+
+}
+
+input,textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid rgb(154, 216, 241);
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+button {
+    display: block;
+    width: 50%;
+    max-width: 300px; /* Prevents the button from becoming too wide on large screens */
+    background-color: rgb(247, 244, 244);
+    color: rgb(25, 24, 24);
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(136, 176, 90, 0.5);
+    margin: 10px auto; /* Centers the button horizontally */
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgb(16, 16, 16);
+    color: rgb(240, 236, 236);
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Responsive design for smaller screens */
+@media (max-width: 600px) {
+    button {
+        width: 80%; /* Adjusts the width to be more suitable for smaller screens */
+        font-size: 16px; /* Reduces font size on smaller screens */
+        padding: 15px; /* Reduces padding for better fit */
+    }
+}
+
+@media (max-width: 400px) {
+    button {
+        width: 90%; /* Further adjustment for very small screens */
+        font-size: 14px; /* Further reduction in font size */
+        padding: 10px; /* Further reduction in padding */
+    }
+}
+
+
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid skyblue;
+    border-radius: 8px;
+    background-color: rgb(228, 242, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+#resume-display h2 {
+    color: black;
+}
